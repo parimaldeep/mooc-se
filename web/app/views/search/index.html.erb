@@ -1,0 +1,74 @@
+<script id="search_results" type="text/html">
+  {{#results}}
+  <li>
+  <h4><a href="{{url}}">{{title}}</a></h4>
+  <p class="snippet">
+  {{#snippet}}
+  {{{snippet}}}
+  {{/snippet}}
+  {{^snippet}}
+  No content provided...
+  {{/snippet}}
+  </p>
+  </li>
+  {{/results}}
+  {{^results}}
+  <li>
+  <p>No results found...</p>
+  </li>
+  {{/results}}
+</script>
+<script id="pagination" type="text/html">
+  <ul class="pagination">
+    {{#prevenabled}}
+      <li>
+    {{/prevenabled}}
+    {{^prevenabled}}
+      <li class="disabled">
+    {{/prevenabled}}
+        <a href="#{{hashbase}}&p={{prevpage}}" id="searchPagePrev">&laquo;</a>
+      </li>
+    {{#pages}}
+      {{#active}}
+        <li class="active">
+      {{/active}}
+      {{^active}}
+        <li>
+      {{/active}}
+          <a href="#{{hashbase}}&p={{idx}}" class="">{{idx}}</a>
+        </li>
+    {{/pages}}
+    {{#nextenabled}}
+      <li>
+    {{/nextenabled}}
+    {{^nextenabled}}
+      <li class="disabled">
+    {{/nextenabled}}
+        <a href="#{{hashbase}}&p={{nextpage}}" id="searchPageNext">&raquo;</a>
+      </li>
+  </ul>
+</script>
+
+<div class="container">
+  <div class="row">
+    <div class="row search">
+      <form class="navbar-form" role="search" id="searchForm">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" id="search-text"/>
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="container">
+        <ol id="searchResults"></ol>
+        <div id="searchPagination" class="centered">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

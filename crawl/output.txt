@@ -1,0 +1,195 @@
+https://www.udemy.com/creating-responsive-html-email/
+How to Create HTML Email: Creating a Responsive HTML Email - Udemy
+ Browse Courses
+ Recommended for You
+Development
+Business
+IT & Software
+Office Productivity
+Personal Development
+Design
+Marketing
+Lifestyle
+Photography
+Health & Fitness
+Teacher Training
+Music
+Academics
+Language
+Test Prep
+ 
+Login
+Creating a Responsive HTML Email
+Create attractive, responsive, HTML Emails, that work in over 30 combinations of the most commonly used email clients.
+19 reviews
+Taught by
+
+Chris Converse
+Designer and Developer at Codify Design Studio
+Chris has over 20 years experience in graphic design and interactive media, with a unique focus on both design and development. Chris possesses development skills across such languages as PHP, ActionScript, HTML, CSS, and JavaScript, making his design execution optimal across various media.
+
+Did you know that over 46% of email is now read on mobile devices?
+
+Designing HTML email can be quite challenging, considering the limited capabilities of many email clients (readers). In contrast, most new email readers supports many of the latest trends in web design. What to do?
+
+Enter Responsive HTML Email. This course will show you how to design and construct an HTML email design that will render properly in such email readers and Outlook 2003 and Gmail, all the way through modern Android, Apple, and Windows phones. We will also explore online tools and services that will help you test your campaigns. Learn what is possible with HTML email.
+
+Running Time: 88 minutes
+
+Category: Development / Web Development
+What are the requirements?
+What am I going to get from this course?
+What is the target audience?
+CURRICULUM
+Introduction and Set-up Files
+1
+About this course.
+Preview
+2
+What's included in the exercise files.
+3
+ Setting expectations for you and your clients.
+Preview
+4
+Beginning the project.
+Creating the Graphics
+5
+Creating the Banner and Background Graphics.
+6
+Creating content graphics for multiple screen sizes.
+Creating the HTML Email
+7
+Creating the Base HTML Structure.
+8
+Formatting and styling the logo row.
+9
+Formatting and styling the headline row.
+10
+Formatting and styling the content row.
+11
+Formatting and styling the promos row.
+12
+Formatting and styling the callouts row.
+13
+Formatting and styling the footer row.
+Creating Buttons with HTML and CSS
+14
+Converting links to buttons with CSS.
+15
+Creating a call-to-action button.
+Adding CSS to the Email
+16
+Adding the media queries for medium and small screens.
+17
+Switching the headline and banner for smaller screen sizes.
+18
+Adjusting the layout for content and footer for smaller screens.
+19
+Adjusting the promos for smaller screens.
+20
+Adjusting the promos for callouts for medium screens.
+21
+Adjusting the promos for callouts for small screens.
+Pushing the Envelope
+22
+Setting custom inbox preview text.
+23
+Adding animation to your email.
+Preview
+24
+Using web fonts in your email.
+25
+Adding HTML5 video into your email
+26
+Encoding and embedding base64 images
+27
+Using High Definition (Retina) graphics in your HTML Email
+Preview
+Validation and Testing
+28
+Validating the code of you HTML email.
+29
+Testing your HTML email with an online service.
+Preview
+30
+Suggested adjustments for Yahoo! Mail.
+Preview
+31
+Suggested adjustments for Blackberry 5 OS.
+32
+Suggested adjustments for Lotus Notes 6.5, 7, and 8.5.
+Where to go from here
+33
+Recommendations for alternate layouts
+Preview
+34
+Where to go from here.
+Preview
+RATING
+15
+3
+0
+1
+0
+AVERAGE RATING
+NUMBER OF RATINGS
+19
+
+REVIEWS
+
+Enrique
+6 days ago
+Muy bien preparado y estructurado
+
+Tengo conocimientos sobre estos temas y es uno de los cursos mejor estructurados y preparados que he visto. Me ha servido para profundizar más. Buen ritmo de lectura y con ejemplos prácticos.
+
+
+John Domingo
+a month ago
+Great quality presentation for beginner-intermediate HTML/CSS users
+
+I really enjoyed this short course on creating responsive HTML emails because it hit all the necessary points without going into too much detail about rudimentary HTML and CSS. The fact that it's such a short course makes it so that you can go back and treat the entire series as a quick-reference case study if you're just learning HTML and CSS. I recently completed a few HTML and CSS courses through Udemy and that's as much as I know about markup so this course is perfect because it allows me to test the new skills I learned. I plan to go back and review the semantics and styles that Chris used. Like I mentioned, he doesn't go into every little detail about why he added this much padding here or that much margin there, so it engages the student to have to review the course materials and think critically about the instructor's design choices. This in turn will help any user create their own designs and implementation. If there was anything I would change, I suggest a bonus lecture on how to place a link that would open up the email in a web browser in case the end user can't render the full design. Should that link to a web page or a pdf file, etc.? But other than that, I say take this course, I highly recommend it. Happy coding!
+
+
+Leônidas Yopán
+a month ago
+It's simply a Ctrl + C / Ctrl V course
+
+This course was really frustrating because you could tell the instructor knew about the subject and the videos were well produced but there was no teaching! It might be a good course for a PRO. A person who is already a Professional HTML Email developer. For someone who wants to learn the ropes it is far from good.
+
+
+Aiseneya
+2 months ago
+Beyond Worth the Money!
+
+I've done a few other responsive email tutorials that give you a complicated and unreliable way of doing things. This way makes so much sense and Chris shows that he's tested it extensively. I also like how he is thorough without being too wordy. His instructions are clear and concise. He's sharing a wealth of information that I'm quite grateful for. Especially, putting videos in email. I'm very happy I paid for this course.
+
+
+Geoffrey Reemer
+2 months ago
+Absolutely brilliant!
+
+This course did a great job showing me the limitations of e-mail design, and how to still get the best results from your e-mail marketing. Everything was explained very well, with lots of visuals to really get the most important points across. And I have to say that the video and audio quality were excellent as well (which isn't always the case in other Udemy courses). Great job!
+
+SEE MORE REVIEWS
+PRICE: $150
+Take This Course
+Redeem a Coupon
+Add To Wishlist
+Free Preview
+Gift This Course
+Bulk Purchase
+30 day money back guarantee!
+Lifetime Access. No Limits!
+iPhone, iPad and Android Accessibility
+Certificate of Completion
+About Us
+Udemy for Business
+Nonprofits
+Become an Instructor
+Affiliates
+Blog
+Topics
+Mobile Apps
+Support
+Careers

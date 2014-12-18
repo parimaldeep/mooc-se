@@ -1,0 +1,28 @@
+body {
+    padding-top: 60px;
+}
+.centered {
+  text-align: center;
+}
+ol#searchResults {
+  list-style: none;
+  li {
+    h4 a {
+      display: block;
+      white-space: nowrap;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    p.abstract {
+      font-size: 13px;
+    }
+    ul.authors {
+      li {
+        float: left;
+        margin-right: 25px;
+      }
+      margin-bottom: 5px;
+    }
+  }
+}
