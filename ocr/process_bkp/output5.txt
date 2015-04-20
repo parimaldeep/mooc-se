@@ -1,0 +1,10 @@
+﻿                      Sampling                                                                        
+                                                                                                      
+Sampling is a lot like repeated simulation           Why sample?                                      
+                                                                                                      
+■    Predicting the weather, basketball games,...    ■    Learning: get samples from a distribution   
+                                                     you don’t know                                   
+Basic idea                                           ■    Inference: getting a sample is faster than  
+■    Draw N samples from a sampling distribution S   computing the right answer (e.g. with            
+                                                     variable elimination)                            
+■    Compute an approximate posterior probability                                                     

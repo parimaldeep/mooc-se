@@ -1,0 +1,5 @@
+﻿ Prior Sampling                                      
+                                                     
+                                                     
+                                                     
+■ This process generates samples with probability:   

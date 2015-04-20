@@ -1,0 +1,11 @@
+﻿                                       Sampling Example                             
+                                                                                    
+                                                                                    
+■ There are 2 cups.                                                                 
+■    The first contains 1 penny and 1 quarter                                       
+■    The second contains 2 quarters                                                 
+                                                                                    
+                                                                                    
+ Say I pick a cup uniformly at random, then pick a coin randomly from that          
+ cup. It's a quarter (yes!). What is the probability that the other coin in that    
+ cup is also a quarter?                                                             

@@ -1,0 +1,14 @@
+﻿                                           Sampling 
+                                                    
+                                                    
+■ Sampling from given distribution                  
+                                                    
+■    Step 1: Get sample u from uniform              
+distribution over [0,1)                             
+• f .g. random() <n python                          
+■    Step 2: Convert this sample u into an          
+outcome for the given distribution by               
+having each outcome associated with                 
+a sub-interval of (0,1) with sub-interval           
+size equal to probability of the                    
+outcome                                             

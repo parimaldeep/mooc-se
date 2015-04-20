@@ -8,8 +8,10 @@ import java.util.ArrayList;
 public class Runner {
 	final static String _dataset = "mooc";
 	final static String _indexPath = "lucene-mooc-index";
-	final static String _prefix = "crawl/";
-	final static String _fileList = "courses.txt";
+//	final static String _prefix = "crawl/";
+//	final static String _fileList = "courses.txt";
+	final static String _prefix = "ocr/videos/";
+	final static String _fileList = "videos.txt";
 
 	public static void main(String[] args) throws IOException {
 		if (args.length == 1 && args[0].equalsIgnoreCase("--index"))
@@ -17,8 +19,7 @@ public class Runner {
 		else if (args.length == 1 && args[0].equalsIgnoreCase("--search"))
 			interactiveSearch();
 		else
-			System.out
-					.println("Usage: --index to index or --search to search an index");
+			System.out.println("Usage: --index to index or --search to search an index");
 	}
 
 	/**

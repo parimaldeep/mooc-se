@@ -1,0 +1,5 @@
+﻿Likelihood Weighting   
+                       
+ P(C)                  
+ k I 0.5               
+ j < 1 o.s~            

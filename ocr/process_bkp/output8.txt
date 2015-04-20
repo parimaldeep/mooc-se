@@ -1,0 +1,9 @@
+﻿Sampling in Bayes' Nets         
+                                
+                                
+ ■    Prior Sampling            
+ ■    Rejection Sampling        
+                                
+ ■    Likelihood Weighting      
+                                
+     Gibbs Sampling             

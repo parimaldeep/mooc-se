@@ -1,0 +1,70 @@
+OCR:
+
+info@ocrsdk.com
+http://ocrsdk.com/documentation/quick-start/work/
+
+https://github.com/abbyysdk/ocrsdk.com/tree/master/Python
+
+process.py image.pdf output.txt -l English -txt
+
+Video tagging: speech to text
+
+brew install cmake
+
+brew install ffmpeg
+
+brew install opencv --python27 --ffmpeg
+
+had to update libpng: followed Downloading and Installing libpng Manually
+https://www.underworldproject.org/documentation/LibpngDownload.html
+
+http://docs.opencv.org/doc/tutorials/highgui/video-input-psnr-ssim/video-input-psnr-ssim.html?highlight=structural%20similarity
+
+
+abby is not free:
+
+https://code.google.com/p/pytesser/
+
+https://www.newocr.com/
+
+doest work:
+
+brew install tesseract;
+
+svn checkout http://python-tesseract.googlecode.com/svn/trunk/src python-tesseract
+
+
+work:
+
+wget https://bootstrap.pypa.io/ez_setup.py -O - | python
+#sudo easy_install https://bitbucket.org/3togo/python-tesseract/downloads/python-tesseract_0.8-3.0-py2.7_macosx-10.9-intel.egg
+easy_install https://bitbucket.org/3togo/python-tesseract/downloads/python_tesseract-0.9.1-py2.7-macosx-10.10-x86_64.egg
+#### for homebrew<--- no need to use "sudo"
+
+
+install pil as Image is not working:
+
+pip install pil --allow-external pil --allow-unverified pil
+
+pytesser is open source
+
+
+add the time where it is found
+change indexing criteria
+thumbnail
+
+
+-talk about mooc
+-about ocr
+-about opencv
+-motivation and purpose
+-how i did it
+-techniques used
+-how to install software
+-data set
+-results
+
+operating system
+people over cpu
+computing device
+moore's law

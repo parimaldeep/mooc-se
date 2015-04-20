@@ -1,0 +1,9 @@
+﻿                                       Likelihood Weighting     
+                                                                
+                                                                
+                                                                
+                                                                
+■ Sampling distribution if z sampled and e fixed evidence       
+                                                                
+                   Sws(z,e)= [] P(*s|Parents(*))                
+                                i=i                             

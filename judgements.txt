@@ -1,0 +1,100 @@
+conditional probability
+http://www.youtube.com/embed/ogYaTTRguIw?start=20 http://www.youtube.com/embed/ogYaTTRguIw?start=1500 http://www.youtube.com/embed/HSj47Gch5Sg?start=2120 http://www.youtube.com/embed/HSj47Gch5Sg?start=2660
+variable elimination
+http://www.youtube.com/embed/ogYaTTRguIw?start=130
+sampling
+http://www.youtube.com/embed/ogYaTTRguIw?start=380 http://www.youtube.com/embed/ogYaTTRguIw?start=490 http://www.youtube.com/embed/ogYaTTRguIw?start=640 http://www.youtube.com/embed/HSj47Gch5Sg?start=2120 http://www.youtube.com/embed/ogYaTTRguIw?start=1820 http://www.youtube.com/embed/ogYaTTRguIw?start=2790 http://www.youtube.com/embed/ogYaTTRguIw?start=3070 http://www.youtube.com/embed/ogYaTTRguIw?start=3680 http://www.youtube.com/embed/ogYaTTRguIw?start=1340 http://www.youtube.com/embed/ogYaTTRguIw?start=1460 http://www.youtube.com/embed/ogYaTTRguIw?start=3710 http://www.youtube.com/embed/ogYaTTRguIw?start=3140
+prior sampling
+http://www.youtube.com/embed/ogYaTTRguIw?start=700
+rejection sampling 
+http://www.youtube.com/embed/ogYaTTRguIw?start=1210 http://www.youtube.com/embed/ogYaTTRguIw?start=1460
+likelihood weighting
+http://www.youtube.com/embed/ogYaTTRguIw?start=1820 http://www.youtube.com/embed/ogYaTTRguIw?start=2140 http://www.youtube.com/embed/ogYaTTRguIw?start=2810 http://www.youtube.com/embed/ogYaTTRguIw?start=640
+gibbs sampling
+http://www.youtube.com/embed/ogYaTTRguIw?start=2800 http://www.youtube.com/embed/ogYaTTRguIw?start=2840 http://www.youtube.com/embed/ogYaTTRguIw?start=3140 http://www.youtube.com/embed/ogYaTTRguIw?start=2140
+monte carlo
+http://www.youtube.com/embed/ogYaTTRguIw?start=3610
+operating systems
+http://www.youtube.com/embed/5bwLaaP4weo?start=3650 http://www.youtube.com/embed/dUf-pXMEVNs?start=10 http://www.youtube.com/embed/dUf-pXMEVNs?start=4500 http://www.youtube.com/embed/5bwLaaP4weo?start=4230 http://www.youtube.com/embed/5bwLaaP4weo?start=1900 http://www.youtube.com/embed/5bwLaaP4weo?start=3460 http://www.youtube.com/embed/dUf-pXMEVNs?start=4740 http://www.youtube.com/embed/5bwLaaP4weo?start=3670 http://www.youtube.com/embed/ToySNfwFOyc?start=4910 http://www.youtube.com/embed/5bwLaaP4weo?start=2160 http://www.youtube.com/embed/ToySNfwFOyc?start=1760 http://www.youtube.com/embed/ToySNfwFOyc?start=3480 http://www.youtube.com/embed/5bwLaaP4weo?start=40
+computing devices
+http://www.youtube.com/embed/dUf-pXMEVNs?start=510
+moore law
+http://www.youtube.com/embed/dUf-pXMEVNs?start=590 http://www.youtube.com/embed/ToySNfwFOyc?start=320 http://www.youtube.com/embed/ToySNfwFOyc?start=870
+joy's law
+http://www.youtube.com/embed/dUf-pXMEVNs?start=720
+manycore chips
+http://www.youtube.com/embed/dUf-pXMEVNs?start=940
+storage capacity
+http://www.youtube.com/embed/dUf-pXMEVNs?start=1100
+hard disk
+http://www.youtube.com/embed/dUf-pXMEVNs?start=1100
+distributed systems
+http://www.youtube.com/embed/dUf-pXMEVNs?start=1500
+keyboards
+http://www.youtube.com/embed/dUf-pXMEVNs?start=4140
+virtual machines
+http://www.youtube.com/embed/dUf-pXMEVNs?start=4140 http://www.youtube.com/embed/dUf-pXMEVNs?start=4210 http://www.youtube.com/embed/ToySNfwFOyc?start=1760
+address translation
+http://www.youtube.com/embed/5bwLaaP4weo?start=1580
+physical address space
+http://www.youtube.com/embed/5bwLaaP4weo?start=1720
+user mode
+http://www.youtube.com/embed/5bwLaaP4weo?start=1900 http://www.youtube.com/embed/5bwLaaP4weo?start=3650 http://www.youtube.com/embed/5bwLaaP4weo?start=3960
+kernel mode
+http://www.youtube.com/embed/5bwLaaP4weo?start=1900 http://www.youtube.com/embed/5bwLaaP4weo?start=3960
+system call
+http://www.youtube.com/embed/5bwLaaP4weo?start=1900 http://www.youtube.com/embed/5bwLaaP4weo?start=3490 http://www.youtube.com/embed/5bwLaaP4weo?start=3610 http://www.youtube.com/embed/5bwLaaP4weo?start=4710
+bandwidth isolation
+http://www.youtube.com/embed/5bwLaaP4weo?start=3040
+processor
+http://www.youtube.com/embed/5bwLaaP4weo?start=3370 http://www.youtube.com/embed/ToySNfwFOyc?start=320
+memory
+http://www.youtube.com/embed/5bwLaaP4weo?start=3370 http://www.youtube.com/embed/5bwLaaP4weo?start=1580 http://www.youtube.com/embed/ToySNfwFOyc?start=990 http://www.youtube.com/embed/dUf-pXMEVNs?start=4140 http://www.youtube.com/embed/ToySNfwFOyc?start=1760
+layered kernel
+http://www.youtube.com/embed/5bwLaaP4weo?start=3650 
+cpu and resource scheduling
+http://www.youtube.com/embed/5bwLaaP4weo?start=4600 http://www.youtube.com/embed/5bwLaaP4weo?start=3310 http://www.youtube.com/embed/5bwLaaP4weo?start=2350 http://www.youtube.com/embed/dUf-pXMEVNs?start=4740
+kernel
+http://www.youtube.com/embed/5bwLaaP4weo?start=4230 http://www.youtube.com/embed/5bwLaaP4weo?start=1580 http://www.youtube.com/embed/5bwLaaP4weo?start=1900 http://www.youtube.com/embed/5bwLaaP4weo?start=3370 http://www.youtube.com/embed/5bwLaaP4weo?start=3960
+universalism
+http://www.youtube.com/embed/O3GBoVwQYwY?start=2620
+transparency
+http://www.youtube.com/embed/O3GBoVwQYwY?start=10 http://www.youtube.com/embed/O3GBoVwQYwY?start=3590 http://www.youtube.com/embed/O3GBoVwQYwY?start=800 http://www.youtube.com/embed/O3GBoVwQYwY?start=2370
+mertonian research norms
+http://www.youtube.com/embed/O3GBoVwQYwY?start=4270 http://www.youtube.com/embed/O3GBoVwQYwY?start=3620
+genetics
+http://www.youtube.com/embed/z9hfE8qaUew?start=30
+heritability
+http://www.youtube.com/embed/z9hfE8qaUew?start=30 http://www.youtube.com/embed/z9hfE8qaUew?start=190
+gene environment
+http://www.youtube.com/embed/z9hfE8qaUew?start=1670 http://www.youtube.com/embed/z9hfE8qaUew?start=2460 http://www.youtube.com/embed/z9hfE8qaUew?start=2300
+epigenetics
+http://www.youtube.com/embed/z9hfE8qaUew?start=2130
+study population
+http://www.youtube.com/embed/HSj47Gch5Sg?start=260 http://www.youtube.com/embed/HSj47Gch5Sg?start=1510
+recursive functions
+http://www.youtube.com/embed/CPqNsFFgOLo?start=770 http://www.youtube.com/embed/CPqNsFFgOLo?start=1880
+iteration
+http://www.youtube.com/embed/CPqNsFFgOLo?start=3590
+what is science
+http://www.youtube.com/embed/2tUFXkAOp3M?start=680 http://www.youtube.com/embed/O3GBoVwQYwY?start=10 http://www.youtube.com/embed/dUf-pXMEVNs?start=4740 http://www.youtube.com/embed/O3GBoVwQYwY?start=4850
+physics
+http://www.youtube.com/embed/2tUFXkAOp3M?start=680 http://www.youtube.com/embed/2tUFXkAOp3M?start=1790 http://www.youtube.com/embed/2tUFXkAOp3M?start=1310
+inertia
+http://www.youtube.com/embed/2tUFXkAOp3M?start=1810
+gravity
+http://www.youtube.com/embed/2tUFXkAOp3M?start=1810 http://www.youtube.com/embed/2tUFXkAOp3M?start=2790
+newton's law
+http://www.youtube.com/embed/2tUFXkAOp3M?start=1810 http://www.youtube.com/embed/2tUFXkAOp3M?start=1150
+electric field
+http://www.youtube.com/embed/2tUFXkAOp3M?start=2020 http://www.youtube.com/embed/2tUFXkAOp3M?start=2800 http://www.youtube.com/embed/2tUFXkAOp3M?start=2910
+electric charge
+http://www.youtube.com/embed/2tUFXkAOp3M?start=2020 http://www.youtube.com/embed/2tUFXkAOp3M?start=2800 http://www.youtube.com/embed/2tUFXkAOp3M?start=2910
+electricity
+http://www.youtube.com/embed/2tUFXkAOp3M?start=2240 http://www.youtube.com/embed/2tUFXkAOp3M?start=1310 http://www.youtube.com/embed/2tUFXkAOp3M?start=430 http://www.youtube.com/embed/2tUFXkAOp3M?start=1230
+magnetism
+http://www.youtube.com/embed/2tUFXkAOp3M?start=2240 http://www.youtube.com/embed/2tUFXkAOp3M?start=500 http://www.youtube.com/embed/2tUFXkAOp3M?start=630 http://www.youtube.com/embed/2tUFXkAOp3M?start=1230 http://www.youtube.com/embed/2tUFXkAOp3M?start=1310
+non contact forces
+http://www.youtube.com/embed/2tUFXkAOp3M?start=2300
+hardware
+http://www.youtube.com/embed/ToySNfwFOyc?start=1760 http://www.youtube.com/embed/ToySNfwFOyc?start=1830 http://www.youtube.com/embed/5bwLaaP4weo?start=3610 http://www.youtube.com/embed/ToySNfwFOyc?start=4910 http://www.youtube.com/embed/dUf-pXMEVNs?start=4140

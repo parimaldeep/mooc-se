@@ -1,0 +1,22 @@
+﻿                           Example: Alarm Network                          
+                                                                           
+                                                                           
+          B     P(B)               E    P(E)                               
+                                                                           
+          +b    0.001              *e   0.002                              
+          -b    0.999              -e   0.998                              
+                                                                           
+                                                                           
+ A     J     P(J|A)                A    M    P(M|A)                        
+ ♦a    +J    0.9                   ♦a   +m   0.7        B   E  A  P(A|B,E) 
+ ♦a    •j    0.1                   *a   -m   0.3        ♦b  ♦e ♦a   0.95   
+ -a    ♦j    0.05                  -a        0.01       +b  *e -a   0.05   
+                                                        +b  •e +a   0.94   
+ -a    -I    0.95                  -a   -m   0.99                          
+                                                        +b  •e •a   0.06   
+                                                                           
+                                                        -b  ♦e ♦a   0.29   
+P{+b, -e, +a,-j, +m) =                                                     
+                                                        -b  +e -a   0.71   
+                                                        •b  -e +a  0.001   
+                                                        •b  •e -a  0.999   

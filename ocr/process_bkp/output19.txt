@@ -1,0 +1,9 @@
+﻿ Rejection Sampling                                        
+                                                           
+                                                           
+■ IN: evidence Instantiation                               
+•    For W, 2,.... n                                       
+•    Samplex, from P(X, | Parents|X(|)                     
+•    If r$ not consistent with evidence                    
+Select: Return, and no sample Is generated in this cycle   
+•    Return (x,, x„.... x„)                                

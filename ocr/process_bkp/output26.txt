@@ -1,0 +1,11 @@
+﻿Likelihood Weighting                      
+                                          
+ ■    * IN: evidence instantiation        
+ ■    w = 1.0                             
+                                          
+ ■    for i=l, 2,.... n                   
+ • if X, is an evidence variable          
+ •    X, = observation x, (or X,          
+ •    Set w = w • P(x, | Parents(X))      
+ ■ else                                   
+ •    Sample x, from P(X, | Parenls(X,)|  

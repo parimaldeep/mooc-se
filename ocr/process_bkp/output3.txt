@@ -1,0 +1,17 @@
+﻿                           Variable Elimination            
+                                                           
+                                                           
+                                                    »:■>©  
+                                                           
+■ Interleave joining and marginalizing                     
+                                                           
+■ dk entries computed for a factor over k                  
+variables with domain sizes d                              
+                                                           
+                                                           
+■ Ordering of elimination of hidden variables              
+can affect size of factors generated                       
+                                                           
+                                                           
+ Worst case: running time exponential in the               
+ size of the Bayes' net                                    

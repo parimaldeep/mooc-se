@@ -1,0 +1,11 @@
+﻿    Prior Sampling                        
+                                          
+   ■ For i=l, 2,n                         
+   ■ Sample X; from P(Xt | Parents(X,))   
+   • Return (x1( x2,x„)                   
+                                          
+                                          
+                                          
+                                          
+                                          
+o                                         

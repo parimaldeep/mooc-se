@@ -1,0 +1,7 @@
+﻿                               Likelihood Weighting  
+                                                     
+                                                     
+                                                     
+■ Problem with rejection sampling:                   
+■ If evidence is unlikely, rejects lots of samples   
+• Evidence not exploited as you sample               

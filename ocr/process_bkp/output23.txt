@@ -1,0 +1,16 @@
+﻿                 Likelihood Weighting                                                                        
+                                                                                                             
+                                                                                                             
+                                                                                                             
+■ Problem with rejection sampling:                       ■ Idea: fix evidence variables and sample the       
+■    If evidence is unlikely, rejects lots of samples    rest                                                
+■    Evidence not exploited as you sample                ■    Problem: sample distribution not consistent!   
+■    Consider P(Shape | blue)                            ■    Solution: weight by probability of evidence    
+ pyramid, green                                          given parents                                       
+                                                                             pyramid, blue                   
+ pyramid, red                                                                pyramid, blue                   
+ sphere, blue                                                                sphere, blue                    
+ cube,-red                                                                   cube, blue                      
+ sphere,---green                                                             sphere, blue                    
+                                                      r                                                      
+                                                                                                             

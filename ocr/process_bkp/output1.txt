@@ -1,0 +1,15 @@
+﻿                                        Bayes’ Net Representation   
+                                                                    
+                                                                    
+■    A directed, acyclic graph, one node per random variable        
+■    A conditional probability table (CPT) for each node            
+■ A collection of distributions over X, one for each combination    
+of parents' values                                                  
+P(X\ai ...an)                                                       
+                                                                    
+■ Bayes' nets implicitly encode joint distributions                 
+■    As a product of local conditional distributions                
+■    To see what probability a BN gives to a full assignment,       
+multiply all the relevant conditionals together:                    
+                           P(*i,x2.••.*>»)= fl P(xi\parents(Xi))    
+»= i                                                                

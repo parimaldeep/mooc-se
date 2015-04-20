@@ -1,14 +1,18 @@
 <script id="search_results" type="text/html">
   {{#results}}
   <li>
-  <h4><a href="{{url}}">{{title}}</a></h4>
+  <h4>{{title}}</h4>
+  <!--<h4><a href="{{url}}">{{title}}</a></h4>-->
   <p class="snippet">
-  {{#snippet}}
+ <!-- {{#snippet}}
   {{{snippet}}}
   {{/snippet}}
   {{^snippet}}
   No content provided...
-  {{/snippet}}
+  {{/snippet}}-->
+  <iframe width="280" height="210" 
+	src={{url}} frameborder = "0" allowfullscreen>
+ </iframe>
   </p>
   </li>
   {{/results}}
@@ -48,6 +52,12 @@
       </li>
   </ul>
 </script>
+<!--
+<script type="text/javascript">
+	function myFunction() {
+    	return "http://www.youtube.com/embed/XGSy3_Czz8k";              // The function returns the product of p1 and p2
+	}
+</script>-->
 
 <div class="container">
   <div class="row">

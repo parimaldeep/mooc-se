@@ -1,0 +1,17 @@
+﻿                                       Rejection Sampling                  
+                                                                           
+                                                                           
+                                ■ Let’s say we want P(C)                   
+                                                                           
+■    No point keeping all samples around                                   
+■    Just tally counts of C as we go                                       
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                            +c, -s, +r, +w 
+                                                            +c, +s, +r, +w 
+                                                            <i +s, +r, -w  
+                                                            +c, -s, +r, +w 
+                                                            <, -s, -r, +w  

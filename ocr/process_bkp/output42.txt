@@ -1,0 +1,13 @@
+﻿                                                  2nd Place       
+                                                                  
+                                                                  
+Xiaowen Xie                                                       
+2968.6                                                            
+                                                                  
+Strategy                                                          
+-    Informed expectimax search                                   
+-    Use the probability distribution from the ghost agents       
+instead of weighing everything equally.                           
+-    Features: number of foods remaining, minimum ghost           
+distance, closest food, closest power pellet, number of           
+power pellets, etc.                                               

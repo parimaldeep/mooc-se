@@ -1,0 +1,19 @@
+﻿                                                          Example                        
+                                                                                         
+                                                                                         
+                                                                                         
+                         h of samples from the BN:                                       
+                                                                                         
+                                                                 9fcl                    
+                                                                                         
+                                                                                         
+                                                                                         
+If we want to know P(W)                                                                  
+■    We have counts <+w:4, -w:l>                                                         
+■    Normalize to get P(W) = <+w:0.8, -W:0.2>                                            
+■    This will get closer to the true distribution with more samples                     
+                                                                                         
+ ■    Can estimate anything elseTtoo                                           •Ho ) - ‘ 
+■    What about P(C | +wj? P(C| ♦r,*w)?(p(C| -r, -w)? \                                  
+                                                                                     - O 
+■    Fast: can use fewer samples if lesstUnejwhat's the drawback?)                       

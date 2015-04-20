@@ -1,0 +1,20 @@
+﻿                                                  Sampling                                                            
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      
+Sampling from given distribution                   Example                                                            
+                                                                                                                      
+ ■f*    Step 1: Get sample u from uniform                                                                             
+d    distribution over [0,1)                              c          P(C)                                             
+                                                                                                                      
+                 f .g. randomQ in python                 red         0.6               0 < u < 0.6. -> C = r<         
+     Step 2: Copvei^this sample u into an               green        0.1                                              
+     outcome for the given distribution by                                         0.6 < u < 0.7, -» C = gree\        
+     having each outcome associated with           blue                            , 0.7 < u < 1, -> C = blue.        
+     a sub-interval of (0,1) with sub-interval                                                                        
+     size equal to probability of the                                                                 J               
+                                                                                                                      
+     outcome                                              • If random() returns u =M?.8-                              
+                                                             then our sample is C = blue                              
+                                                          ■ E.g, after sampling 8 times:                              
+                                                                                                                      

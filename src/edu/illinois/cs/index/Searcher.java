@@ -55,10 +55,9 @@ public class Searcher
         {
             IndexReader reader = DirectoryReader.open(FSDirectory.open(new File(indexPath)));
             indexSearcher = new IndexSearcher(reader);
-            //indexSearcher.setSimilarity(new BM25Similarity());     // BM25Similarity exists in Lucene
+//            indexSearcher.setSimilarity(new BM25Similarity());     // BM25Similarity exists in Lucene
             //indexSearcher.setSimilarity(new TFIDFSimilarity());  // this is our custom similarity function
             indexSearcher.setSimilarity(new LMDirichletSimilarity());
-            //indexSearcher.setSimilarity(new SimpleSimilarity()); // simple boolean occurrence example function
             analyzer = new SpecialAnalyzer();
             formatter = new SimpleHTMLFormatter("<strong>", "</strong>");
         }
@@ -195,6 +194,13 @@ public class Searcher
                     Highlighter highlighter = new Highlighter(formatter, new QueryScorer(luceneQuery));
                     String title = doc.getField("title").stringValue();
                     rdoc.title(title);
+//                    String url = doc.getField("url").stringValue();
+//                    rdoc.url(url);
+//                    String temp = url.split("v=")[1];
+//                    String strArr[] = temp.split("&t=");
+//                    String contents = "http://www.youtube.com/embed/" + strArr[0] + "?start=" + strArr[1];
+//                    rdoc.content(contents);
+//                    System.out.println(contents);
                     String contents = doc.getField(field).stringValue();
                     rdoc.content(contents);
                     String url = doc.getField("url").stringValue();

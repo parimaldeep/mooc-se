@@ -49,14 +49,25 @@ public class Evaluate {
 		double numRel = 1;
 		System.out.println("\nQuery: " + query);
 		for (ResultDoc rdoc : results) {
-			if (relDocs.contains(rdoc.url())) {
-				avgp += numRel / i;
+			String urlRes = rdoc.url();
+			boolean found = false;
+			for (String urlRel : relDocs) {
+			    String[] urlResA = urlRes.split("start=");
+			    String[] urlRelA = urlRel.split("start=");
+			    if (urlResA[0].equals(urlRelA[0]) && Math.abs(Integer.parseInt(urlResA[1]) - Integer.parseInt(urlRelA[1])) <= 300) { 
+			     	found = true;
+			    	break;
+			    }
+			}
+			if (found) {
+			    avgp += numRel / i;
 				++numRel;
 				System.out.print("  ");
+				System.out.println(i + ". " + urlRes);
 			} else {
 				System.out.print("X ");
+				System.out.println(i + ". " + urlRes);
 			}
-			System.out.println(i + ". " + rdoc.url());
 			++i;
 		}
 		System.out.println("Average Precision: " + (avgp / (i-1)));

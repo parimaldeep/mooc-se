@@ -1,0 +1,13 @@
+﻿                                   Likelihood Weighting                                                                                    
+                                                                                                                                           
+                                                                                                                                           
+                                                                                                                                           
+Likelihood weighting is good                                           Likelihood weighting doesn't solve all our                          
+•    We have taken evidence into account as we                         problems                                                            
+generate the sample                                                    • Evidence influences the choice of downstream                      
+•    E.g. here, W’s value will get picked based on the                 variables, but not upstream ones (C isn‘ t more                     
+evidence values of S, R                                                likely to get a value matchingthe evidence)                         
+ More of our samples will reflect the state of the                     We would like to consider evidence when we                          
+ world suggested by the evidence                                       sample every variable                                               
+                                                                       -> Gibbs sampling                                                   
+                                                                                                                                           

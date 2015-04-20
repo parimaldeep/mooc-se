@@ -1,0 +1,16 @@
+﻿CS 188: Artificial Intelligence        
+                                       
+       Bayes' Nets: Sampling           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+     Pieter Abbeel and Dan Klein       
+  University of California, Berkeley   
