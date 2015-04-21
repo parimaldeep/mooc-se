@@ -1,5 +1,7 @@
 from videoToText import videoToTextConverter
+import time
 
+start_time = time.time()
 
 num = 1
 videoNames = 'data/videoNames.txt'
@@ -16,3 +18,4 @@ with open(videoNames) as videoFile:
         videoToTextConverter(videoLink, videoName + '.mp4', num)
         num = num + 1
 
+print("--- %s seconds ---" % (time.time() - start_time))
