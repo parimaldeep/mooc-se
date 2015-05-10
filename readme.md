@@ -1,95 +1,43 @@
-# Setup
+1. We can go to https://github.com/parimaldeep/mooc-se and download zip or clone the project on our server or desktop.
+2. We need to install OpenCV. Homebrew can be used to install it on Mac.
+  $ brew install cmake
+  $ brew install ffmpeg
+  $ brew install opencv --python27 --ffmpeg
+3. Then we need to install libpng too. MacPorts can be used to install it:
+  $ port install xorg-server
+  $ port install xorg-libXmu
+  $ port install libxml2
+  $ port install libpng
+4. Next we need to setup Tesseract. Homebrew can be used to install it on Mac.
+  $ brew install tesseract
+5. Videos that we want to index should be placed in {root}/ocr/data/. {root}/ocr/data/videoNames.txt should contain the video URL in one line and video title in the next line.
+6. Next we need to start the script to convert video to text form. This is done by running:
+  $ python {root}/ocr/videosToText.py
+7. Then we need to create search engine using Lucene.
+   $ cd {root}
+   $ module load apache-maven
+   $ mvn install --file server-pom.xml
+   $ mvn --file command-line-pom.xml package
+   $ java -jar target/GOOSE-CL-0.1-SNAPSHOT.jar --index
+8. We need to install required gems:
+   $ cd {root}/web/
+   $ bundle install
+9. We need to set up nodejs:
+   $ cd {root}/web/node/
+   $ npm install
+10. Start the rails server:
+   $ cd {root}/web/
+   $ rails s
+11. Start the jetty server:
+   $ mvn --file server-pom.xml package
+   $ java -jar target/GOOSE-WEB-0.1-SNAPSHOT.jar
+12. Start the proxy:
+   $ cd web/node
+   $ node proxy.js
+13. We can navigate to http://localhost:9001/ and use the search en- gine.
+14. Create a file at {root}/judgements.txt to write test data. The format is: First line: query text. Second line: space delimited list of relevant URLs. Repeat the same with other queries.
+15. Once we get the judgements.txt file , we can run the evaluation script. To compile it and execute, run:
+   $ mvn --file eval-pom.xml package
+   $ java -jar target/GOOSE-EVAL-0.1-SNAPSHOT.jar
 
-Note: all these instructions assume you are in the root project directory
-unless otherwise stated.
-
-* Run
-
-  `mvn install`
-  mvn install --file server-pom.xml
-
-* If you want to create an Eclipse project, also run
-
-  `mvn eclipse:eclipse`
-
-  Then, in Eclipse, File -> Import -> Existing Project and select this
-  directory. Then, Window -> Preferences -> Classpath Variables -> New.
-  Name it M2_REPO, and give it the path to ~/.m2/repository.
-
-# Non-web version
-
-You can use maven to build the indexing/searching executable, or you can run it
-in Eclipse. If running in Eclipse, make sure to provide a command line argument.
-
-* To create the jar with Maven, run
-
-  `mvn --file command-line-pom.xml package`
-
-* This creates a directory called target/, and the jar is inside. To run the
-  jar, do
-
-  `java -jar target/GOOSE-CL-0.1-SNAPSHOT.jar --index`
-
-  to index the files in the crawl/courses/ directory
-
-* To run the search engine, run
-
-  `java -jar target/GOOSE-CL-0.1-SNAPSHOT.jar --search`
-
-# Evaluation
-
-Once you get the judgements.txt file and additional crawled files, you will be
-able to run the evaluation script. To compile it, use Eclipse or run maven with
-the following command:
-
-`mvn --file eval-pom.xml package`
-
-Then you can run
-
-`java -jar target/GOOSE-EVAL-0.1.SNAPSHOT.jar`
-
-to see your MAP score.
-
-# Web version
-
-You are *not required* to use the web version. In fact, it will probably not
-work on the EWS machines, so you would have to use your own system and install
-the necessary packages.
-
-## Setup
-
-* Install required gems:
-
-  `cd web/`
-
-  `bundle install`
-
-* Set up nodejs:
-
-  `cd web/node/`
-
-  `npm install`
-
-## Running the server locally
-
-* Start the rails server:
-
-  `cd web/`
-
-  `rails s`
-
-* Start the jetty server:
-
-  `mvn --file server-pom.xml package`
-
-  `java -jar target/GOOSE-WEB-0.1-SNAPSHOT.jar`
-
-* Start the proxy:
-
-  `cd web/node`
-
-  `node proxy.js`
-
-* (Make sure that you have indexed the files!)
-
-* Now you can navigate to http://localhost:9001/ and use the search engine!
+Basic search engine taken from CS410(Spring 2014) assignment 
